@@ -14,6 +14,7 @@ export default function Accunt({ navigation }) {
     }
     const onSettings = () => {
       console.log('ckied on settings button')
+      navigation.navigate('AccuntSettings')
     }
     return (
       <SafeAreaView style = {ngStyles.mt}>

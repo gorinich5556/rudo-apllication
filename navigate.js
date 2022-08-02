@@ -1,6 +1,7 @@
 import React from "react";
 import Accunt from "./components/accunt";
 import Work from "./components/work";
+import AccuntSettings from "./components/accuntSettings"
 
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
@@ -22,6 +23,11 @@ export default function Navigate(){
                 name="Work"
                 component={Work}
                 options = {{title: 'Work' , headerShown: false }}
+                />
+            <Stack.Screen
+                name="AccuntSettings"
+                component={AccuntSettings}
+                options = {{title: 'Settings ac' , headerShown: false }}
                 />
         </Stack.Navigator>
     </NavigationContainer>;

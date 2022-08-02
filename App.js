@@ -6,6 +6,7 @@ import AppLoading from 'expo-app-loading';
 import MainStack from './navigate';
 import 'react-native-gesture-handler';
 
+
 export const fonts = () => Font.loadAsync({
   "it-medium": require('./assets/fonts/Inter-Medium.ttf'),
   "it-regular": require('./assets/fonts/Inter-Regular.ttf'),

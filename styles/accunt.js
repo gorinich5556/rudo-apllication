@@ -81,5 +81,47 @@ export const acStyle =  StyleSheet.create({
     FloatSettingsIcon: {
         width: 38,
         height: 38
+    },
+    userNameSt_set: {
+        fontFamily: 'it-regular',
+        color: '#FF0C0C',
+        fontSize: 28,
+        lineHeight: 34,
+        position: 'relative',
+        top: -100,
+        left: 150,
+        paddingHorizontal: 10,
+        borderWidth: 2,
+        borderColor: '#01F5E759' ,
+        borderStyle: 'solid',
+        borderRadius: 6,
+        width: 166,
+        height: 36,
+
+        
+    },
+    userSurnameSt_set: {
+        fontFamily: 'it-regular',
+        color: '#FF0C0C',
+        fontSize: 20,
+        lineHeight: 29,
+        position: 'relative',
+        marginTop: 10,
+        top: -100,
+        left: 150,
+        paddingHorizontal: 10,
+        paddingVertical: 6,
+        borderWidth: 2,
+        borderColor: '#01F5E759' ,
+        borderStyle: 'solid',
+        borderRadius: 6,
+        width: 166,
+        height: 36,
+    },
+    saveButtonContainer:{
+        width: 226,
+        position: 'relative',
+        left: '25%',
+        top: '70%'
     }
 })

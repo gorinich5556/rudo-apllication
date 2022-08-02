@@ -9,4 +9,14 @@ export const gStyle =  StyleSheet.create({
         height: 5,
         backgroundColor: '#FF0C0C'
       },
+    dfButton: {
+        paddingHorizontal: 32,
+        paddingVertical: 8,
+        backgroundColor: '#01F5E7',
+        borderRadius: 9,
+    },
+    dfButtonText: {
+        fontSize: 38,
+        color: '#FF0000',
+    }
 })
